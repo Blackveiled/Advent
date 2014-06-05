@@ -1,0 +1,74 @@
+## Advent - CraftBukkit Plugin
+
+
+########  ########   ##      ##  #######  ##    ##  ########
+########  #########  ##      ##  #######  ###   ##  ########
+###  ###  ##    ###  ####  ####  ##       ####  ##     ## 
+##    ##  ##     ##  ####  ####  ##       ########     ##
+########  ##     ##   ###  ###   #######  ##  ####     ## 
+########  ##     ##    ######    #######  ##   ###     ##   
+##    ##  ##     ##    ######    ##       ##   ###     ## 
+##    ##  ##    ###    ######    ##       ##   ###     ## 
+##    ##  ########       ##      #######  ##    ##     ## dev-1.0.0R1
+
+
+#############################################################
+#############################################################
+##        Developed by Blackveiled (Adam Canfield)         ##
+#############################################################
+#############################################################
+
+advent:
+    
+#############################################################
+#############################################################
+##                                                         ## 
+##   Advent is a CraftBukkit plugin which is designed to   ## 
+##  build a foundation for the development of a universal  ## 
+##  platform which individuals may use to create, run and  ## 
+##    even develop their own servers. Advent listens in    ## 
+##           on other plugins which hook to it.            ## 
+##                                                         ##
+#############################################################
+#############################################################
+
+
+#############################################################
+##                                                         ## 
+##  1. ADVENT SETTINGS                                     ##
+##                                                         ##
+#############################################################
+
+    settings:
+        
+        #############################################################
+        ##                                                         ## 
+        ##  1.1 DATABASE SETTINGS                                  ##
+        ##                                                         ##
+        ##   [!] Currently not supported.  Toggling enable will    ##
+        ##  have no effect.  Feel free to change it and have your  ##
+        ##  database server information prepared when support is   ##
+        ##                         added.                          ##
+        ##                                                         ##
+        #############################################################
+        
+        mysql-settings:
+            enabled: false
+            hostname: "localhost"
+            schema: "advent"
+            user: "root"
+            password: "root"
+            port: 3306
+            
+        #############################################################
+        ##                                                         ## 
+        ##  1.2 SERVICE SETTINGS                                   ##
+        ##                                                         ##
+        #############################################################
+        
+        services:
+            items: false
+            inventory: false
+            players: false
+            mobs: false
+            scripting: false

@@ -1,0 +1,11 @@
+## YAML Template.
+---
+name: Advent
+main: com.blackveiled.advent.plugin.Advent
+version: 1_0_0R1
+commands:
+    advent:
+        description: Plugin information about the plugin Advent.
+        usage: /advent
+        permission: advent.advent
+        permission-message: You do not have permission to use this command.
